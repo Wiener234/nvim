@@ -1,0 +1,49 @@
+# This is your rocks.nvim plugins declaration file.
+# Here is a small yet pretty detailed example on how to use it:
+#
+# [plugins]
+# nvim-treesitter = "semver_version"  # e.g. "1.0.0"
+
+# List of non-Neovim rocks.
+# This includes things like `toml` or other lua packages.
+[rocks]
+
+# List of Neovim plugins to install alongside their versions.
+# If the plugin name contains a dot then you must add quotes to the key name!
+[plugins]
+"rocks.nvim" = "2.9.0"
+"rocks-config.nvim" = "1.2.1"
+"rocks-git.nvim" = "1.2.1"
+gruvbox = { git = "ellisonleao/gruvbox.nvim" }
+nvim-treesitter = { git = "nvim-treesitter/nvim-treesitter" }
+nvim-lspconfig = "0.1.7"
+mason = { git = "williamboman/mason.nvim" }
+mason-lspconfig = { git = "williamboman/mason-lspconfig.nvim"}
+nvim-cmp = { git = "hrsh7th/nvim-cmp" }
+cmp-nvim-lsp = { git = "hrsh7th/cmp-nvim-lsp" }
+cmp-path = { git = "hrsh7th/cmp-path" }
+cmp-nvim-lua = { git = "hrsh7th/cmp-nvim-lua" }
+cmp-buffer = { git = "hrsh7th/cmp-buffer" }
+cmp-cmdline = { git = "hrsh7th/cmp-cmdline" }
+cmp-nvim-lsp-signature-help = { git = "hrsh7th/cmp-nvim-lsp-signature-help" }
+mini-surround = { git = "echasnovski/mini.surround" }
+mini-pairs = { git = "echasnovski/mini.pairs" }
+luasnip = "2.2.0"
+cmp-luasnip = { git = "saadparwaiz1/cmp_luasnip" }
+"telescope.nvim" = "scm"
+mini-comment = { git = "echasnovski/mini.comment" }
+better-escape = { git = "max397574/better-escape.nvim" }
+nvim-dap = "0.7.0"
+nvim-jdtls = { git = "mfussenegger/nvim-jdtls" }
+"image.nvim" = "1.2.0"
+sg = { git = "sourcegraph/sg.nvim" }
+"plenary.nvim" = "scm"
+typst = { git = "kaarmu/typst.vim" }
+vim-floaterm = { git = "voldikss/vim-floaterm" }
+neorg = { version = "7.0.0" }
+
+
+
+[config]
+plugins_dir = "plugins/"
+auto_setup = false

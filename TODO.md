@@ -1,0 +1,12 @@
+- [x] luasnip setup
+- [n] mini.completion
+- [x] nvim-jdtls
+- [l] nvim-dap
+- [l] mason-nvim-dap.nvim
+- [l] nvim-dap-ui
+- [x] sg.nvim
+- [ ] tpyst.vim
+- [x] image.nvim
+- [x] neorg
+- [x] mini.comment
+- [x] telescope.nvim
