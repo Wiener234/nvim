@@ -13,8 +13,8 @@ vim.opt.wrap = false
 
 -- spaces for tabs
 vim.opt.expandtab = true 
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4 -- spaces for indents with <>
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2 -- spaces for indents with <>
 
 -- clipboard
 vim.opt.clipboard = "unnamedplus"
@@ -39,6 +39,16 @@ vim.cmd.colorscheme("gruvbox")
 
 -- leaderkey
 vim.g.mapleader = " "
+
+-- clipboard
+vim.opt.clipboard = "unnamedplus"
+
+-- colorcolumn
+vim.opt.colorcolumn = "80"
+vim.api.nvim_set_hl(0, "ColorColumn", { bg = '#353535'})
+
+-- conceallevel
+vim.opt.conceallevel = 2
 
 
 -- set keys
