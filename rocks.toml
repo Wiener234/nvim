@@ -41,6 +41,8 @@ sg = { git = "sourcegraph/sg.nvim" }
 typst = { git = "kaarmu/typst.vim" }
 vim-floaterm = { git = "voldikss/vim-floaterm" }
 neorg = { version = "7.0.0" }
+nvim-base16 = { git = "chriskempson/base16-vim" }
+catppuccin = { git = "catppuccin/nvim" }
 
 
 

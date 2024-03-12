@@ -35,7 +35,8 @@ vim.opt.ignorecase = true
 vim.opt.termguicolors = true
 
 -- colorscheme
-vim.cmd.colorscheme("gruvbox")
+-- vim.cmd.colorscheme("gruvbox")
+vim.cmd("colorscheme catppuccin-latte")
 
 -- leaderkey
 vim.g.mapleader = " "
