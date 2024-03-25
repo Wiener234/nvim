@@ -43,6 +43,9 @@ vim-floaterm = { git = "voldikss/vim-floaterm" }
 neorg = { version = "7.0.0" }
 nvim-base16 = { git = "chriskempson/base16-vim" }
 catppuccin = { git = "catppuccin/nvim" }
+nord = { git = "nordtheme/vim" }
+nord2 = { git = "rmehri01/onenord.nvim" }
+colorizer = { git = "norcalli/nvim-colorizer.lua" }
 
 
 
