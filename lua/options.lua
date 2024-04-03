@@ -36,8 +36,7 @@ vim.opt.termguicolors = true
 
 -- colorscheme
 -- vim.cmd.colorscheme("gruvbox")
-vim.cmd("colorscheme catppuccin-frappe")
-vim.cmd("colorscheme onenord")
+vim.cmd("colorscheme tokyonight")
 
 -- leaderkey
 vim.g.mapleader = " "
@@ -47,7 +46,7 @@ vim.opt.clipboard = "unnamedplus"
 
 -- colorcolumn
 vim.opt.colorcolumn = "80"
-vim.api.nvim_set_hl(0, "ColorColumn", { bg = '#353535'})
+-- vim.api.nvim_set_hl(0, "ColorColumn", { bg = '#354'})
 
 -- conceallevel
 vim.opt.conceallevel = 2

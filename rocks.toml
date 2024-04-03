@@ -46,6 +46,8 @@ catppuccin = { git = "catppuccin/nvim" }
 nord = { git = "nordtheme/vim" }
 nord2 = { git = "rmehri01/onenord.nvim" }
 colorizer = { git = "norcalli/nvim-colorizer.lua" }
+zen = { git = "folke/zen-mode.nvim" }
+tokyonight = { git = "folke/tokyonight.nvim" }
 
 
 
