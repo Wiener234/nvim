@@ -9,7 +9,7 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 -- linewrapping
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 -- spaces for tabs
 vim.opt.expandtab = true 
