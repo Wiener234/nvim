@@ -58,4 +58,4 @@ vim.api.nvim_set_keymap('v', 'gk', '<Esc>', {})
 
 vim.opt.linebreak = true
 vim.opt.textwidth = 80
-vim.opt.formatoptions = 'tca'
+vim.opt.formatoptions = 'qwtca'
