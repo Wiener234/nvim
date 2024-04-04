@@ -12,7 +12,7 @@
 # If the plugin name contains a dot then you must add quotes to the key name!
 [plugins]
 "rocks.nvim" = "2.9.0"
-"rocks-config.nvim" = "1.2.1"
+"rocks-config.nvim" = "1.2.3"
 "rocks-git.nvim" = "1.2.1"
 gruvbox = { git = "ellisonleao/gruvbox.nvim" }
 nvim-treesitter = { git = "nvim-treesitter/nvim-treesitter" }

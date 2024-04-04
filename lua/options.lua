@@ -55,3 +55,7 @@ vim.opt.conceallevel = 2
 -- set keys
 vim.api.nvim_set_keymap('i', 'gk', '<Esc>', {})
 vim.api.nvim_set_keymap('v', 'gk', '<Esc>', {})
+
+vim.opt.linebreak = true
+vim.opt.textwidth = 80
+vim.opt.formatoptions = 'tca'
