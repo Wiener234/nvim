@@ -48,6 +48,8 @@ nord2 = { git = "rmehri01/onenord.nvim" }
 colorizer = { git = "norcalli/nvim-colorizer.lua" }
 zen = { git = "folke/zen-mode.nvim" }
 tokyonight = { git = "folke/tokyonight.nvim" }
+nvim-tree = { git = "nvim-tree/nvim-tree.lua" }
+web-dev-icons = { git = "nvim-tree/nvim-web-devicons" }
 
 
 
