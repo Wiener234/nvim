@@ -11,48 +11,47 @@
 # List of Neovim plugins to install alongside their versions.
 # If the plugin name contains a dot then you must add quotes to the key name!
 [plugins]
-"rocks.nvim" = "2.9.0"
-"rocks-config.nvim" = "1.2.3"
-"rocks-git.nvim" = "1.2.1"
-gruvbox = { git = "ellisonleao/gruvbox.nvim" }
-nvim-treesitter = { git = "nvim-treesitter/nvim-treesitter" }
-nvim-lspconfig = "0.1.7"
-mason = { git = "williamboman/mason.nvim" }
-mason-lspconfig = { git = "williamboman/mason-lspconfig.nvim"}
-nvim-cmp = { git = "hrsh7th/nvim-cmp" }
-cmp-nvim-lsp = { git = "hrsh7th/cmp-nvim-lsp" }
-cmp-path = { git = "hrsh7th/cmp-path" }
+"rocks.nvim" = "2.28.0"
+"rocks-config.nvim" = "1.6.0"
+"rocks-git.nvim" = "1.5.1"
+nvim-treesitter = "0.9.2"
+nvim-lspconfig = "0.1.8"
+nvim-cmp = "0.0.1"
+cmp-nvim-lsp = "scm"
+cmp-path = "scm"
 cmp-nvim-lua = { git = "hrsh7th/cmp-nvim-lua" }
-cmp-buffer = { git = "hrsh7th/cmp-buffer" }
-cmp-cmdline = { git = "hrsh7th/cmp-cmdline" }
+cmp-buffer = "scm"
+cmp-cmdline = "scm"
 cmp-nvim-lsp-signature-help = { git = "hrsh7th/cmp-nvim-lsp-signature-help" }
 mini-surround = { git = "echasnovski/mini.surround" }
 mini-pairs = { git = "echasnovski/mini.pairs" }
-luasnip = "2.2.0"
+luasnip = "2.3.0"
 cmp-luasnip = { git = "saadparwaiz1/cmp_luasnip" }
 "telescope.nvim" = "scm"
 mini-comment = { git = "echasnovski/mini.comment" }
-better-escape = { git = "max397574/better-escape.nvim" }
 nvim-dap = "0.7.0"
-nvim-jdtls = { git = "mfussenegger/nvim-jdtls" }
-"image.nvim" = "1.2.0"
-sg = { git = "sourcegraph/sg.nvim" }
+nvim-jdtls = "0.2.0"
+"image.nvim" = "1.3.0"
 "plenary.nvim" = "scm"
 typst = { git = "kaarmu/typst.vim" }
 vim-floaterm = { git = "voldikss/vim-floaterm" }
-neorg = { version = "7.0.0" }
-nvim-base16 = { git = "chriskempson/base16-vim" }
+neorg = { version = "8.5.0" }
 catppuccin = { git = "catppuccin/nvim" }
-nord = { git = "nordtheme/vim" }
 nord2 = { git = "rmehri01/onenord.nvim" }
 colorizer = { git = "norcalli/nvim-colorizer.lua" }
-zen = { git = "folke/zen-mode.nvim" }
-tokyonight = { git = "folke/tokyonight.nvim" }
-nvim-tree = { git = "nvim-tree/nvim-tree.lua" }
-web-dev-icons = { git = "nvim-tree/nvim-web-devicons" }
-
+train = { git = "tjdevries/train.nvim" }
+"hardtime.nvim" = "scm"
+"better-escape.nvim" = "scm"
+"tokyonight.nvim" = "3.0.1"
+sg = { git = "sourcegraph/sg.nvim" }
+"zen-mode.nvim" = "1.3.0"
+nvim-tree = { git = "nvim-tree/nvim-tree.lua"}
+nvim-web-devicons = "0.100"
+"mason.nvim" = "1.10.0"
+"mason-lspconfig.nvim" = "1.29.0"
+"gruvbox.nvim" = "2.0.0"
 
 
 [config]
 plugins_dir = "plugins/"
-auto_setup = false
+auto_setup = true
