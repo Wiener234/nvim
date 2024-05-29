@@ -59,3 +59,14 @@ vim.api.nvim_set_keymap('v', 'gk', '<Esc>', {})
 -- vim.opt.linebreak = true
 -- vim.opt.textwidth = 80
 -- vim.opt.formatoptions = 'qwtca'
+ 
+vim.api.nvim_create_autocmd({'BufEnter'} , {
+	callback = function ()
+    if vim.bo.filetype ~= "norg" then
+      vim.o.statuscolumn = ''
+      vim.o.statusline = ''
+      vim.o.cmdheight = 1
+    end
+	end,
+})
+vim.o.statusline = "%#test#%10.{' '}%#StatusLine#%<%f\\ %h%m%r%=%-14.(%l,%c%V%)\\ %P"

@@ -53,9 +53,6 @@ nvim-web-devicons = "0.100"
 "rocks-dev.nvim" = "1.2.1"
 "neorg-conceal-wrap" = { git = "benlubas/neorg-conceal-wrap" }
 
-dir = "~/tmp/neorg_typst"
-
-
 [config]
 plugins_dir = "plugins/"
 auto_setup = true
