@@ -26,6 +26,7 @@ require('neorg').setup{
                 template_name = "journal_template.norg",
             },
         },
+        ["external.conceal-wrap"] = {},
     },
 }
 
