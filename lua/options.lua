@@ -72,19 +72,19 @@ vim.api.nvim_create_autocmd({'BufEnter'} , {
 vim.o.statusline = "%#test#%10.{' '}%#StatusLine#%<%f\\ %h%m%r%=%-14.(%l,%c%V%)\\ %P"
 local light = "kitty +kitten themes Tokyo Night Day "
 local dark = "kitty +kitten themes Tokyo Night Storm "
-local state = 0
-vim.api.nvim_create_user_command("ColorToggle", 
-function()    
-  
-  if state == 0 then
+vim.api.nvim_create_user_command("ColorToggle",
+function()
+  local state = vim.api.nvim_get_option("background")
+  if state == "dark" then
     vim.fn.system(light)
+    vim.api.nvim_set_option("background", "light")
     vim.cmd("colorscheme tokyonight-day")
-    state = 1
-  else if state == 1 then
+  else if state == "light" then
     vim.fn.system(dark)
+    vim.api.nvim_set_option("background", "dark")
     vim.cmd("colorscheme tokyonight")
-    state = 0
   end
   end
     
+print(vim.api.nvim_get_option("background"))
 end,{})
